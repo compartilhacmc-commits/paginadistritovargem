@@ -192,6 +192,7 @@
             font-weight: 500;
             transition: all 0.3s ease;
             box-shadow: 0 2px 8px rgba(139, 44, 90, 0.15);
+            min-height: 60px;
         }
 
         .link-button:hover {
@@ -215,6 +216,18 @@
         .link-button span {
             font-size: 0.95rem;
             line-height: 1.4;
+        }
+
+        /* Estilo especial para o botão de Painéis Estratégicos */
+        .highlight-button {
+            box-shadow: 0 4px 15px rgba(139, 44, 90, 0.25);
+            background: linear-gradient(135deg, #ffffff 0%, #fdf2f8 100%);
+            border: 2px solid #f3e8ee;
+        }
+
+        .highlight-button:hover {
+            box-shadow: 0 8px 30px rgba(139, 44, 90, 0.35);
+            background: linear-gradient(135deg, #fdf2f8 0%, #fce7f3 100%);
         }
 
         /* Footer */
@@ -376,7 +389,7 @@
                         Painéis Estratégicos para Controle dos Fluxos:
                     </h2>
                     <div class="links-grid">
-                        <a href="https://regulacaocmcvargem-tech.github.io/pendenciasvargem/" class="link-button" target="_blank">
+                        <a href="https://regulacaocmcvargem-tech.github.io/pendenciasvargem/" class="link-button highlight-button" target="_blank">
                             <i class="fas fa-exclamation-triangle"></i>
                             <span>Controle de Pendências 
                                 Distrito Vargem das Flores</span>
@@ -683,34 +696,3 @@
     </script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
